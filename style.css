@@ -302,13 +302,26 @@ p {
     height: 40px;
     border: 1px solid #e8ecee;
     margin-right: 4px;
+    background-color: #fff;
+    transition: background .1s linear;
+}
+
+.social__item:hover {
+    background-color: #e8ecee;
+}
+
+.social__item:hover .social__icon {
+    fill: #000;
 }
 
 .social__icon {
     fill: #c6cacc;
     display: block;
-    height: 18px;
+    height: 24px;
+    width: 24px;
+    transition: fill .1s linear;
 }
+
 
 
 
